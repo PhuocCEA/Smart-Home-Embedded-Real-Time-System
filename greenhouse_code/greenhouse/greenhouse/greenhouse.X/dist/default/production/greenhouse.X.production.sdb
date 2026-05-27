@@ -1,0 +1,444 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"15 C:\Users\jakso\Downloads\greenhouse\greenhouse\greenhouse.X/DHT11.h
+[v _DHT11_Start DHT11_Start `(v  1 e 1 0 ]
+"25
+[v _DHT11_Check_Response DHT11_Check_Response `(uc  1 e 1 0 ]
+"45
+[v _DHT11_Read_Byte DHT11_Read_Byte `(uc  1 e 1 0 ]
+"73
+[v _DHT11_Read DHT11_Read `(uc  1 e 1 0 ]
+"11 C:\Users\jakso\Downloads\greenhouse\greenhouse\greenhouse.X/LightSensor.h
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"20
+[v _Light_Read Light_Read `(ui  1 e 2 0 ]
+"35
+[v _Relay_Init Relay_Init `(v  1 e 1 0 ]
+"42
+[v _Light_Control_Relay Light_Control_Relay `(v  1 e 1 0 ]
+"14 C:\Users\jakso\Downloads\greenhouse\greenhouse\greenhouse.X/PIR.h
+[v _PIR_Init PIR_Init `(v  1 e 1 0 ]
+"21
+[v _PIR_Read PIR_Read `(uc  1 e 1 0 ]
+"26
+[v _PIR_Control_Alarm PIR_Control_Alarm `(v  1 e 1 0 ]
+"193 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _pad pad `(v  1 s 1 pad ]
+"1001
+[v _utoa utoa `(v  1 s 1 utoa ]
+"1158
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"33 C:\Users\jakso\Downloads\greenhouse\greenhouse\greenhouse.X\newmain.c
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+"39
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"43
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+"44
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+"50
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+"58
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+"62
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+"69
+[v _main main `(v  1 e 1 0 ]
+"11 C:\Users\jakso\Downloads\greenhouse\greenhouse\greenhouse.X/DHT11.h
+[v _dht_temp dht_temp `uc  1 e 1 0 ]
+"12
+[v _dht_hum dht_hum `uc  1 e 1 0 ]
+[s S76 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"293 C:/Program Files/Microchip/MPLABX/v6.30/packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f877a.h
+[u S85 . 1 `S76 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES85  1 e 1 @7 ]
+[s S97 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"355
+[u S106 . 1 `S97 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES106  1 e 1 @8 ]
+"1150
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1157
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S55 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1452
+[u S64 . 1 `S55 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES64  1 e 1 @135 ]
+"1497
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S33 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1514
+[u S42 . 1 `S33 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES42  1 e 1 @136 ]
+"1559
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2220
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2227
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2580
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @250 ]
+"2751
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"2763
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"2766
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"2769
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"2772
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"2775
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"2778
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"153 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+"185
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69 C:\Users\jakso\Downloads\greenhouse\greenhouse\greenhouse.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"96
+[v main@light_val light_val `ui  1 a 2 17 ]
+"86
+[v main@buffer buffer `[17]uc  1 a 17 0 ]
+"87
+[v main@tick tick `i  1 a 2 21 ]
+"88
+[v main@screen_page screen_page `uc  1 a 1 20 ]
+"89
+[v main@dht_status dht_status `uc  1 a 1 19 ]
+"146
+} 0
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[u S682 . 2 `*.39uc 1 buffer 2 0 `*.1DCuc 1 source 1 0 ]
+"13
+[s S685 _IO_FILE 11 `S682 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v sprintf@f f `S685  1 a 11 47 ]
+"12
+[v sprintf@ap ap `[1]*.4v  1 a 1 46 ]
+"9
+[v sprintf@s s `*.4uc  1 p 1 41 ]
+[v sprintf@fmt fmt `*.24DCuc  1 p 1 42 ]
+"23
+} 0
+"1817 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1820
+[v vfprintf@cfmt cfmt `*.24uc  1 a 1 40 ]
+[s S717 _IO_FILE 0 ]
+"1817
+[v vfprintf@fp fp `*.39S717  1 p 2 36 ]
+[v vfprintf@fmt fmt `*.24DCuc  1 p 1 38 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 39 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[u S736 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `d 1 f 4 0 ]
+"1188
+[v vfpfcnvrt@convarg convarg `S736  1 a 4 30 ]
+"1179
+[v vfpfcnvrt@cp cp `*.24uc  1 a 1 35 ]
+"1180
+[v vfpfcnvrt@done done `a  1 a 1 34 ]
+[s S717 _IO_FILE 0 ]
+"1177
+[v vfpfcnvrt@fp fp `*.39S717  1 p 2 24 ]
+[v vfpfcnvrt@fmt fmt `*.4*.24uc  1 p 1 26 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 27 ]
+"1814
+} 0
+"1001
+[v _utoa utoa `(v  1 s 1 utoa ]
+{
+"1003
+[v utoa@i i `i  1 a 2 22 ]
+[v utoa@w w `i  1 a 2 20 ]
+"1007
+[v utoa@p p `a  1 a 1 19 ]
+[s S717 _IO_FILE 0 ]
+"1001
+[v utoa@fp fp `*.39S717  1 p 2 15 ]
+[v utoa@d d `ui  1 p 2 17 ]
+"1047
+} 0
+"193
+[v _pad pad `(v  1 s 1 pad ]
+{
+"195
+[v pad@i i `i  1 a 2 13 ]
+[s S717 _IO_FILE 0 ]
+"193
+[v pad@fp fp `*.39S717  1 p 2 8 ]
+[v pad@buf buf `*.4uc  1 p 1 10 ]
+[v pad@p p `i  1 p 2 11 ]
+"226
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 6 ]
+"10
+[v fputs@c c `uc  1 a 1 5 ]
+"8
+[v fputs@s s `*.4DCuc  1 p 1 0 ]
+[u S682 . 2 `*.39uc 1 buffer 2 0 `*.1DCuc 1 source 1 0 ]
+[s S685 _IO_FILE 11 `S682 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputs@fp fp `*.39S685  1 p 2 1 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[u S682 . 2 `*.39uc 1 buffer 2 0 `*.1DCuc 1 source 1 0 ]
+[s S685 _IO_FILE 11 `S682 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.39S685  1 p 2 2 ]
+"24
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 1
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"1158 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+{
+"1164
+[v read_prec_or_width@c c `uc  1 a 1 8 ]
+"1159
+[v read_prec_or_width@n n `i  1 a 2 9 ]
+"1158
+[v read_prec_or_width@fmt fmt `*.4*.24DCuc  1 p 1 6 ]
+[v read_prec_or_width@ap ap `*.4[1]*.4v  1 p 1 7 ]
+"1171
+} 0
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"35 C:\Users\jakso\Downloads\greenhouse\greenhouse\greenhouse.X/LightSensor.h
+[v _Relay_Init Relay_Init `(v  1 e 1 0 ]
+{
+"38
+} 0
+"14 C:\Users\jakso\Downloads\greenhouse\greenhouse\greenhouse.X/PIR.h
+[v _PIR_Init PIR_Init `(v  1 e 1 0 ]
+{
+"18
+} 0
+"26
+[v _PIR_Control_Alarm PIR_Control_Alarm `(v  1 e 1 0 ]
+{
+"32
+} 0
+"21
+[v _PIR_Read PIR_Read `(uc  1 e 1 0 ]
+{
+"23
+} 0
+"42 C:\Users\jakso\Downloads\greenhouse\greenhouse\greenhouse.X/LightSensor.h
+[v _Light_Control_Relay Light_Control_Relay `(v  1 e 1 0 ]
+{
+"43
+[v Light_Control_Relay@current_light current_light `ui  1 a 2 6 ]
+"42
+[v Light_Control_Relay@threshold threshold `ui  1 p 2 4 ]
+"52
+} 0
+"20
+[v _Light_Read Light_Read `(ui  1 e 2 0 ]
+{
+"32
+} 0
+"62 C:\Users\jakso\Downloads\greenhouse\greenhouse\greenhouse.X\newmain.c
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+{
+"63
+[v Lcd_Write_String@i i `i  1 a 2 9 ]
+"62
+[v Lcd_Write_String@a a `*.26uc  1 p 2 4 ]
+"64
+} 0
+"58
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+{
+[v Lcd_Write_Char@a a `uc  1 p 1 wreg ]
+[v Lcd_Write_Char@a a `uc  1 p 1 wreg ]
+[v Lcd_Write_Char@a a `uc  1 p 1 3 ]
+"61
+} 1
+"44
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+[v Lcd_Set_Cursor@row row `uc  1 p 1 wreg ]
+"45
+[v Lcd_Set_Cursor@temp temp `uc  1 a 1 5 ]
+"44
+[v Lcd_Set_Cursor@row row `uc  1 p 1 wreg ]
+[v Lcd_Set_Cursor@col col `uc  1 p 1 4 ]
+"46
+[v Lcd_Set_Cursor@row row `uc  1 p 1 6 ]
+"49
+} 1
+"50
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+{
+"57
+} 0
+"43
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+{
+} 0
+"39
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd_Cmd@a a `uc  1 p 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 p 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 p 1 3 ]
+"42
+} 1
+"33
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+{
+[v Lcd_Port@a a `uc  1 p 1 wreg ]
+[v Lcd_Port@a a `uc  1 p 1 wreg ]
+[v Lcd_Port@a a `uc  1 p 1 0 ]
+"38
+} 1
+"73 C:\Users\jakso\Downloads\greenhouse\greenhouse\greenhouse.X/DHT11.h
+[v _DHT11_Read DHT11_Read `(uc  1 e 1 0 ]
+{
+"74
+[v DHT11_Read@temp_int temp_int `uc  1 a 1 4 ]
+[v DHT11_Read@hum_int hum_int `uc  1 a 1 3 ]
+[v DHT11_Read@checksum checksum `uc  1 a 1 2 ]
+[v DHT11_Read@temp_dec temp_dec `uc  1 a 1 1 ]
+[v DHT11_Read@hum_dec hum_dec `uc  1 a 1 0 ]
+"92
+} 0
+"15
+[v _DHT11_Start DHT11_Start `(v  1 e 1 0 ]
+{
+"22
+} 0
+"45
+[v _DHT11_Read_Byte DHT11_Read_Byte `(uc  1 e 1 0 ]
+{
+"46
+[v DHT11_Read_Byte@data data `uc  1 a 1 3 ]
+[v DHT11_Read_Byte@timeout timeout `uc  1 a 1 2 ]
+[v DHT11_Read_Byte@i i `uc  1 a 1 1 ]
+"69
+} 0
+"25
+[v _DHT11_Check_Response DHT11_Check_Response `(uc  1 e 1 0 ]
+{
+"26
+[v DHT11_Check_Response@timeout timeout `uc  1 a 1 0 ]
+"42
+} 0
+"11 C:\Users\jakso\Downloads\greenhouse\greenhouse\greenhouse.X/LightSensor.h
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+"17
+} 0

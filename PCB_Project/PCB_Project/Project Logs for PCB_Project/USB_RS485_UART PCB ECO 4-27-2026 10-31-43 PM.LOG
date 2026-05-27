@@ -1,0 +1,246 @@
+Add Component: Footprint Not Found C_0603
+Add Component: Footprint Not Found C_0603
+Add Component: Footprint Not Found C_0603
+Add Component: Footprint Not Found C_1206
+Add Component: Footprint Not Found C_0603
+Add Component: Footprint Not Found C_1206
+Add Component: Footprint Not Found C_1206
+Add Component: Footprint Not Found C_1206
+Add Component: Footprint Not Found C_1206
+Add Component: Footprint Not Found C_0603
+Add Component: Footprint Not Found C_1206
+Add Component: Footprint Not Found C_1206
+Add Component: Footprint Not Found SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
+Add Component: Footprint Not Found 2LED_3MM
+Add Component: Footprint Not Found F_1812
+Added Component: Designator=F2(RESC1608X55N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.avx.com/docs/Catalogs/accug2.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.avx.com/docs/Catalogs/accug2.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Cold Resistance"; Value = "0.25 Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Type"; Value = "Fast Acting"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "AVX Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "F0603E0R50FSTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratings"; Value = "500mA; 32VDC; fast acting"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SCDType"; Value = "source"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "478-2860-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "500mA"; VariantName = "[No Variations]"
+Added Component: Designator=F3(RESC1608X55N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.avx.com/docs/Catalogs/accug2.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.avx.com/docs/Catalogs/accug2.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Cold Resistance"; Value = "0.25 Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Type"; Value = "Fast Acting"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "AVX Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "F0603E0R50FSTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratings"; Value = "500mA; 32VDC; fast acting"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SCDType"; Value = "source"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "478-2860-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "500mA"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found F_1812
+Added Component: Designator=HD1(Header_4)
+Add component (AddParameter): Name = "Value"; Value = "Header 4"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found MAX485
+Add Component: Footprint Not Found PWRM-TH_BXXXXS-1WR3
+Added Component: Designator=J1(Header_2)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.2 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=JDC1(DC0)
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C718033"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JINJIA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "DC+02I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMT Assembly"; Value = "No"; VariantName = "[No Variations]"
+Added Component: Designator=JP1(USB-B-TH_U241-041N-1BR85-1)
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C397338"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "XKB Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "U241-041N-1BR85-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMT Assembly"; Value = "No"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found RJ45R10P-B000
+Added Component: Designator=JP?(HDR1X5)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Through hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMT Assembly"; Value = "No"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found IND-SMD_L3.0-W3.0
+Add Component: Footprint Not Found IND-SMD_L3.0-W3.0
+Added Component: Designator=LED1(LED0805)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=LED2(LED0805)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Q1(17# 2SC1815-HF)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "tme.vn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.tme.vn/Product.aspx?id=413#page=pro_info"; VariantName = "[No Variations]"
+Added Component: Designator=R1(tro smd 0603)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH006334"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 0603 1% 1k"; VariantName = "[No Variations]"
+Added Component: Designator=R2(tro smd 0603)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH006334"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 0603 1% 1k"; VariantName = "[No Variations]"
+Added Component: Designator=R3(tro smd 0805)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH005253"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 0805 5% 120R"; VariantName = "[No Variations]"
+Added Component: Designator=R4(tro smd 0805)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH005234"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 0805 5% 1k"; VariantName = "[No Variations]"
+Added Component: Designator=R5(tro smd 1206)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH005910"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 5% 10R"; VariantName = "[No Variations]"
+Added Component: Designator=R6(tro smd 1206)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH005910"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 5% 10R"; VariantName = "[No Variations]"
+Added Component: Designator=R7(tro smd 1206)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH005910"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 5% 10R"; VariantName = "[No Variations]"
+Added Component: Designator=R8(tro smd 0603)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH006334"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 0603 1% 1k"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found R_0603
+Add Component: Footprint Not Found R_0603
+Added Component: Designator=R11(R_0805)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C17408"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Uniroyal Elec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "0805W8F1000T5E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMT Assembly"; Value = "Yes"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V_BOARD Pin=JP?-1
+Added Net: Name=+5V_BOARD
+Added Pin To Net: NetName=+5V_ISO Pin=LED1-1
+Added Pin To Net: NetName=+5V_ISO Pin=R7-1
+Added Pin To Net: NetName=+5V_ISO Pin=R8-1
+Added Net: Name=+5V_ISO
+Added Pin To Net: NetName=+5V_USB Pin=JP1-1
+Added Net: Name=+5V_USB
+Added Pin To Net: NetName=A Pin=F3-1
+Added Pin To Net: NetName=A Pin=R3-2
+Added Pin To Net: NetName=A Pin=R6-2
+Added Pin To Net: NetName=A Pin=R7-2
+Added Net: Name=A
+Added Net: Name=B0505_VIN
+Added Pin To Net: NetName=B Pin=F2-1
+Added Pin To Net: NetName=B Pin=J1-2
+Added Pin To Net: NetName=B Pin=R4-1
+Added Pin To Net: NetName=B Pin=R5-2
+Added Net: Name=B
+Added Pin To Net: NetName=DCIN Pin=JDC1-1
+Added Net: Name=DCIN
+Added Pin To Net: NetName=DIR_CTRL Pin=Q1-3
+Added Pin To Net: NetName=DIR_CTRL Pin=R1-1
+Added Net: Name=DIR_CTRL
+Added Pin To Net: NetName=GND_ISO Pin=LED2-2
+Added Pin To Net: NetName=GND_ISO Pin=Q1-2
+Added Pin To Net: NetName=GND_ISO Pin=R4-2
+Added Pin To Net: NetName=GND_ISO Pin=R11-2
+Added Net: Name=GND_ISO
+Added Pin To Net: NetName=GND_PWR485 Pin=HD1-4
+Added Pin To Net: NetName=GND_PWR485 Pin=JDC1-2
+Added Pin To Net: NetName=GND_PWR485 Pin=JDC1-3
+Added Pin To Net: NetName=GND_PWR485 Pin=R11-1
+Added Net: Name=GND_PWR485
+Added Pin To Net: NetName=GND Pin=JP1-4
+Added Pin To Net: NetName=GND Pin=JP1-5
+Added Pin To Net: NetName=GND Pin=JP1-6
+Added Pin To Net: NetName=GND Pin=JP?-2
+Added Pin To Net: NetName=GND Pin=JP?-5
+Added Net: Name=GND
+Added Net: Name=Net*3_4
+Added Net: Name=NetC8_2
+Added Pin To Net: NetName=NetD1_4 Pin=JP1-2
+Added Net: Name=NetD1_4
+Added Pin To Net: NetName=NetD1_6 Pin=JP1-3
+Added Net: Name=NetD1_6
+Added Net: Name=NetD2_2
+Added Net: Name=NetD2_4
+Added Pin To Net: NetName=NetIC1_6 Pin=R6-1
+Added Net: Name=NetIC1_6
+Added Pin To Net: NetName=NetIC1_7 Pin=R5-1
+Added Net: Name=NetIC1_7
+Added Net: Name=NetIC2_4
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=R3-1
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetLED1_2 Pin=LED1-2
+Added Pin To Net: NetName=NetLED1_2 Pin=R1-2
+Added Net: Name=NetLED1_2
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Pin To Net: NetName=NetLED2_1 Pin=R8-2
+Added Net: Name=NetLED2_1
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R2-2
+Added Net: Name=NetQ1_1
+Added Pin To Net: NetName=RS485_A Pin=F3-2
+Added Pin To Net: NetName=RS485_A Pin=HD1-2
+Added Net: Name=RS485_A
+Added Pin To Net: NetName=RS485_B Pin=F2-2
+Added Pin To Net: NetName=RS485_B Pin=HD1-3
+Added Net: Name=RS485_B
+Added Net: Name=RXD_ISO
+Added Pin To Net: NetName=RXD Pin=JP?-4
+Added Net: Name=RXD
+Added Pin To Net: NetName=TXD_ISO Pin=R2-1
+Added Net: Name=TXD_ISO
+Added Pin To Net: NetName=TXD Pin=JP?-3
+Added Net: Name=TXD
+Added Net: Name=UD+
+Added Net: Name=UD-
+Added Pin To Net: NetName=VIN_RS485 Pin=HD1-1
+Added Net: Name=VIN_RS485
+Added Class: Name=USB_RS485_Board

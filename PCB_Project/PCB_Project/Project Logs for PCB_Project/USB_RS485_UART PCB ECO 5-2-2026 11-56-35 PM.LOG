@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=RS485_B Pin=HD1-1
+Removed Pin From Net: NetName=RS485_A Pin=HD1-2
+Removed Pin From Net: NetName=VIN_RS485 Pin=HD1-3
+Removed Pin From Net: NetName=GND_PWR485 Pin=HD1-4
+Added Pin To Net: NetName=GND_PWR485 Pin=HD1-1
+Added Pin To Net: NetName=VIN_RS485 Pin=HD1-2
+Added Pin To Net: NetName=RS485_A Pin=HD1-3
+Added Pin To Net: NetName=RS485_B Pin=HD1-4

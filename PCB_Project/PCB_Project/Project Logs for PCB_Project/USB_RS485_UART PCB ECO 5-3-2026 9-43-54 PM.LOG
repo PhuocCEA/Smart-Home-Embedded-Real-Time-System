@@ -1,0 +1,5 @@
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Yellow
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Yellow
+Added Member To Class: ClassName=USB_RS485_Board Member=Component C3 100nF
+Added Member To Class: ClassName=USB_RS485_Board Member=Component C4 100nF
+Added Member To Class: ClassName=USB_RS485_Board Member=Component C12 4.7uF
