@@ -1,4 +1,15 @@
+# Smart Home Embedded Real-Time System
 
+[![Platform: PIC16F877A](https://img.shields.io/badge/Platform-PIC16F877A--8MHz-blue.svg)](https://www.microchip.com/wwwproducts/en/PIC16F877A)
+[![Co-processor: ESP32](https://img.shields.io/badge/Co--processor-ESP32--WROOM-red.svg)](https://www.espressif.com/en/products/socs/esp32)
+[![Compiler: XC8](https://img.shields.io/badge/Compiler-XC8--v2.x-orange.svg)](https://www.microchip.com/en-us/tools-resources/develop/compilers/xc8)
+[![Course: EE104IU](https://img.shields.io/badge/Course-EE104IU--Embedded--Systems-green.svg)](#)
+
+An open-source, bare-metal **Smart Home Embedded Real-Time System** built on a custom-designed PCB. The core architecture utilizes a **PIC16F877A** microcontroller operating at 8 MHz to manage local time-critical tasks and a predictable **Cooperative Scheduler** (100 ms tick rate). An onboard **ESP32** co-processor is provisioned on the hardware layer to handle high-level IoT cloud connectivity, display multiplexing, and network expansions.
+
+This project was developed as part of the **Embedded Real-Time Systems** course (EE104IU) at International University - Vietnam National University, Ho Chi Minh City (HCMIU-VNU).
+
+---
 ## 📌 Core Functionalities
 
 The system processes and acts upon four main concurrent real-time application sub-tasks without the overhead of a full RTOS kernel:
